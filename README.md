@@ -17,6 +17,10 @@ npm run build
 ```
 
 ```bash
+npm run format && npm run build
+```
+
+```bash
 npm run format:check
 ```
 

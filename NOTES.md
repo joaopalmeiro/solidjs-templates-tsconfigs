@@ -11,6 +11,7 @@
 - https://github.com/dprint/dprint/issues/4
 - https://github.com/dprint/dprint/issues/413
 - https://dprint.dev/plugins/toml/: `npx dprint config add toml`
+- https://github.com/dprint/js-formatter
 
 ## Commands
 
