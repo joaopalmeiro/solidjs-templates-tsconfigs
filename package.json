@@ -12,6 +12,7 @@
     "format:check": "dprint output-file-paths && dprint check",
     "format": "dprint fmt"
   },
+  "files": ["ts-minimal/"],
   "devDependencies": {
     "@types/fs-extra": "11.0.4",
     "@types/node": "18.18.13",

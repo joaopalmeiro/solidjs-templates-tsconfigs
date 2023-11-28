@@ -1,7 +1,7 @@
 # Notes
 
 - https://github.com/joaopalmeiro/create-vite-tsconfigs
-- https://github.com/solidjs/templates/tree/d785e3d1e5187df34cb2be9bb0eb2679f4b4f1b5
+- First commit used: https://github.com/solidjs/templates/tree/d785e3d1e5187df34cb2be9bb0eb2679f4b4f1b5
 - https://mariusschulz.com/blog/the-showconfig-compiler-option-in-typescript
 - https://docs.npmjs.com/cli/v10/commands/npm-install
 - https://eslint.org/blog/2023/10/deprecating-formatting-rules/#what-you-should-do-instead
@@ -12,6 +12,7 @@
 - https://github.com/dprint/dprint/issues/413
 - https://dprint.dev/plugins/toml/: `npx dprint config add toml`
 - https://github.com/dprint/js-formatter
+- https://github.com/dprint/dprint/issues/736
 
 ## Commands
 
