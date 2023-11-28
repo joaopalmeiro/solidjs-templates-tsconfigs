@@ -2,6 +2,9 @@
 
 TSConfig files for projects created from the [solidjs/templates](https://github.com/solidjs/templates) repo.
 
+- [Source code](https://github.com/joaopalmeiro/solidjs-templates-tsconfigs)
+- [npm package](https://www.npmjs.com/package/solidjs-templates-tsconfigs)
+
 ## Available TSConfig files
 
 ### [solidjs/templates#d785e3d1e5187df34cb2be9bb0eb2679f4b4f1b5](https://github.com/solidjs/templates/tree/d785e3d1e5187df34cb2be9bb0eb2679f4b4f1b5)
@@ -44,6 +47,10 @@ npm version --no-git-tag-version minor
 
 ```bash
 npm version --no-git-tag-version major
+```
+
+```bash
+npm run format
 ```
 
 - Commit and push changes.
