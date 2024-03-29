@@ -10,11 +10,17 @@ TSConfig files for projects created from the [solidjs/templates](https://github.
 
 ## Available TSConfig files
 
-### [solidjs/templates#924ee8359dc908c3ca3bd622c0c32dd2d666c78e](https://github.com/solidjs/templates/tree/924ee8359dc908c3ca3bd622c0c32dd2d666c78e)
+### [solidjs/templates](https://github.com/solidjs/templates/tree/924ee8359dc908c3ca3bd622c0c32dd2d666c78e)
 
 | Template                                                                                                    | TSConfig file                                                                                                                |
 | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | [ts-minimal](https://github.com/solidjs/templates/tree/924ee8359dc908c3ca3bd622c0c32dd2d666c78e/ts-minimal) | [tsconfig.json](https://github.com/solidjs/templates/blob/924ee8359dc908c3ca3bd622c0c32dd2d666c78e/ts-minimal/tsconfig.json) |
+
+### [solidjs/solid-start](https://github.com/solidjs/solid-start/tree/v1.0.0-rc.0)
+
+| Template                                                                      | TSConfig file                                                                                        |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| [bare](https://github.com/solidjs/solid-start/tree/v1.0.0-rc.0/examples/bare) | [tsconfig.json](https://github.com/solidjs/solid-start/blob/v1.0.0-rc.0/examples/bare/tsconfig.json) |
 
 ## Development
 
@@ -34,6 +40,10 @@ Delete the following [top-level options](https://www.typescriptlang.org/tsconfig
 - `"include"`
 - `"exclude"`
 - `"references"`
+
+Remove the following [`compilerOptions` options](https://www.typescriptlang.org/tsconfig) (if necessary):
+
+- [`"paths"`](https://www.typescriptlang.org/tsconfig#paths)
 
 ```bash
 npm run lint

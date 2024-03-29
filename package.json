@@ -17,6 +17,7 @@
     "url": "https://github.com/joaopalmeiro"
   },
   "files": [
+    "bare/",
     "ts-minimal/"
   ],
   "scripts": {

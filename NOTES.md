@@ -29,6 +29,7 @@
 - https://github.com/dprint/dprint-plugin-markdown/releases
 - https://github.com/dprint/dprint-plugin-json/releases
 - https://github.com/dprint/dprint/blob/0.45.0/dprint.json
+- https://github.com/solidjs/solid-start/releases
 
 ## Commands
 
