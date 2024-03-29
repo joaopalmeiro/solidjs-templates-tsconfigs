@@ -10,11 +10,11 @@ TSConfig files for projects created from the [solidjs/templates](https://github.
 
 ## Available TSConfig files
 
-### [solidjs/templates#d785e3d1e5187df34cb2be9bb0eb2679f4b4f1b5](https://github.com/solidjs/templates/tree/d785e3d1e5187df34cb2be9bb0eb2679f4b4f1b5)
+### [solidjs/templates#924ee8359dc908c3ca3bd622c0c32dd2d666c78e](https://github.com/solidjs/templates/tree/924ee8359dc908c3ca3bd622c0c32dd2d666c78e)
 
 | Template                                                                                                    | TSConfig file                                                                                                                |
 | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| [ts-minimal](https://github.com/solidjs/templates/tree/d785e3d1e5187df34cb2be9bb0eb2679f4b4f1b5/ts-minimal) | [tsconfig.json](https://github.com/solidjs/templates/blob/d785e3d1e5187df34cb2be9bb0eb2679f4b4f1b5/ts-minimal/tsconfig.json) |
+| [ts-minimal](https://github.com/solidjs/templates/tree/924ee8359dc908c3ca3bd622c0c32dd2d666c78e/ts-minimal) | [tsconfig.json](https://github.com/solidjs/templates/blob/924ee8359dc908c3ca3bd622c0c32dd2d666c78e/ts-minimal/tsconfig.json) |
 
 ## Development
 
