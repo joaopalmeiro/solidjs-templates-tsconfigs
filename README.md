@@ -4,8 +4,8 @@ TSConfig files for projects created from the [solidjs/templates](https://github.
 
 - [Source code](https://github.com/joaopalmeiro/solidjs-templates-tsconfigs)
 - [npm package](https://www.npmjs.com/package/solidjs-templates-tsconfigs)
-- [Licenses](https://licenses.dev/npm/solidjs-templates-tsconfigs/0.1.0)
-- [Package Phobia](https://packagephobia.com/result?p=solidjs-templates-tsconfigs@0.1.0)
+- [Licenses](https://licenses.dev/npm/solidjs-templates-tsconfigs/0.2.0)
+- [Package Phobia](https://packagephobia.com/result?p=solidjs-templates-tsconfigs@0.2.0)
 - [npm trends](https://npmtrends.com/solidjs-templates-tsconfigs)
 
 ## Available TSConfig files
