@@ -1,6 +1,6 @@
 # solidjs-templates-tsconfigs
 
-TSConfig files for projects created from the [solidjs/templates](https://github.com/solidjs/templates) repo.
+TSConfig files for projects created from the [solidjs/templates](https://github.com/solidjs/templates) and [solidjs/solid-start](https://github.com/solidjs/solid-start) repos.
 
 - [Source code](https://github.com/joaopalmeiro/solidjs-templates-tsconfigs)
 - [npm package](https://www.npmjs.com/package/solidjs-templates-tsconfigs)

@@ -13,6 +13,7 @@
 - https://dprint.dev/plugins/toml/: `npx dprint config add toml`
 - https://github.com/dprint/js-formatter
 - https://github.com/dprint/dprint/issues/736
+- https://github.com/joaopalmeiro/create-vue-tsconfigs
 
 ## Commands
 

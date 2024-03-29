@@ -1,7 +1,7 @@
 {
   "name": "solidjs-templates-tsconfigs",
   "version": "0.1.0",
-  "description": "TSConfig files for projects created from the solidjs/templates repo.",
+  "description": "TSConfig files for projects created from the solidjs/templates and solidjs/solid-start repos.",
   "repository": { "type": "git", "url": "git+https://github.com/joaopalmeiro/solidjs-templates-tsconfigs.git" },
   "author": "João Palmeiro",
   "license": "MIT",
