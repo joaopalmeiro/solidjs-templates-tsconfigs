@@ -2,23 +2,38 @@
   "name": "solidjs-templates-tsconfigs",
   "version": "0.1.0",
   "description": "TSConfig files for projects created from the solidjs/templates and solidjs/solid-start repos.",
-  "repository": { "type": "git", "url": "git+https://github.com/joaopalmeiro/solidjs-templates-tsconfigs.git" },
-  "author": "João Palmeiro",
-  "license": "MIT",
-  "bugs": { "url": "https://github.com/joaopalmeiro/solidjs-templates-tsconfigs/issues" },
-  "homepage": "https://github.com/joaopalmeiro/solidjs-templates-tsconfigs#readme",
-  "scripts": {
-    "build": "jiti build-tsconfigs.ts",
-    "format:check": "dprint output-file-paths && dprint check",
-    "format": "dprint fmt"
+  "homepage": "https://github.com/joaopalmeiro/solidjs-templates-tsconfigs",
+  "bugs": {
+    "url": "https://github.com/joaopalmeiro/solidjs-templates-tsconfigs/issues"
   },
-  "files": ["ts-minimal/"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaopalmeiro/solidjs-templates-tsconfigs.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "João Palmeiro",
+    "email": "joaopalmeiro@proton.me",
+    "url": "https://github.com/joaopalmeiro"
+  },
+  "files": [
+    "ts-minimal/"
+  ],
+  "scripts": {
+    "format": "run-s format:pkgJson format:code",
+    "format:code": "dprint fmt",
+    "format:pkgJson": "sort-package-json",
+    "lint": "run-s lint:pkgJson lint:filePaths lint:code",
+    "lint:code": "dprint check",
+    "lint:filePaths": "dprint output-file-paths",
+    "lint:pkgJson": "sort-package-json --check"
+  },
   "devDependencies": {
-    "@types/fs-extra": "11.0.4",
-    "@types/node": "18.18.13",
     "dprint": "0.43.1",
-    "fs-extra": "11.2.0",
-    "jiti": "1.21.0",
-    "solid-templates": "github:solidjs/templates#d785e3d1e5187df34cb2be9bb0eb2679f4b4f1b5"
+    "npm-run-all2": "6.1.2",
+    "sort-package-json": "2.8.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

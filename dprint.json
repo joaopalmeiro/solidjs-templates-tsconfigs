@@ -1,6 +1,8 @@
 {
-  "json": { "preferSingleLine": true },
-  "excludes": ["node_modules/", "ts-minimal/"],
+  "json": {
+    "preferSingleLine": false
+  },
+  "excludes": ["node_modules/"],
   "plugins": [
     "https://plugins.dprint.dev/typescript-0.88.6.wasm",
     "https://plugins.dprint.dev/json-0.19.1.wasm",
