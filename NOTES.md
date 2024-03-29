@@ -25,6 +25,10 @@
   - "The configuration from the base file are loaded first, then overridden by those in the inheriting config file. All relative paths found in the configuration file will be resolved relative to the configuration file they originated in."
   - "It's worth noting that `files`, `include`, and `exclude` from the inheriting config file _overwrite_ those from the base config file, and that circularity between configuration files is not allowed."
   - "Currently, the only top-level property that is excluded from inheritance is `references`."
+- https://github.com/dprint/dprint/releases
+- https://github.com/dprint/dprint-plugin-markdown/releases
+- https://github.com/dprint/dprint-plugin-json/releases
+- https://github.com/dprint/dprint/blob/0.45.0/dprint.json
 
 ## Commands
 
@@ -34,6 +38,10 @@ npm install -D jiti fs-extra @types/fs-extra dprint
 
 ```bash
 npm install -D "@types/node@$(cat .nvmrc | cut -d . -f 1-2)"
+```
+
+```bash
+npm install -D dprint npm-run-all2 sort-package-json
 ```
 
 ```bash
